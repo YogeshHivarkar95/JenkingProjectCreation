@@ -18,9 +18,9 @@ public class JenkinApplicationCICD {
     }
 
     @PostConstruct
-    public  init(){
+    public void init(){
         logger.info("Application Running");
-        logger.info("Second Task Is Running happily in jenkin Application Running");
+
     }
 
 }
