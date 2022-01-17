@@ -14,7 +14,7 @@ public class JenkinTest {
 
 
     @Test
-    public  contextLoads(){
+    public  void contextLoads(){
 
        logger.info("Test Case Executing");
         logger.info("Second  Test Case Executing Successfullly");
